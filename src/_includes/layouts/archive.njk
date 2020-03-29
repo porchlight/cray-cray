@@ -1,12 +1,12 @@
 {% extends 'layouts/base.njk' %}
-{% set pageType = 'Post Archive' %}
+{% set pageType = 'Archive' %}
 
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
 
 {# Post list content #}
-{% set postListHeading = 'All posts' %}
+{% set postListHeading = 'All the jibber-jabber' %}
 {% set postListItems = collections.posts %}
 
 {% block content %}

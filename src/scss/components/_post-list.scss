@@ -1,6 +1,9 @@
 .post-list {
   &__item {
     --flow-space: #{get-size(700)};
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   }
 
   &__link {

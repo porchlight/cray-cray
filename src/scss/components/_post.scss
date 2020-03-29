@@ -1,6 +1,7 @@
 .post {
   &__body {
     --flow-space: #{get-size(800)};
+    background-color: white;
 
     /**
      * Generic HTML styles 
@@ -126,7 +127,8 @@
     h2 {
       flex-shrink: 0;
       margin-right: get-size('base');
-      color: var(--color-dark);
+      color: black;
+      background: none;
     }
 
     h2 a {
@@ -134,7 +136,8 @@
     }
 
     a {
-      background: var(--color-bg);
+      background: none;
+      color: white;
       padding: 0.4rem 0.6rem;
     }
   }

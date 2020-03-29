@@ -16,10 +16,12 @@
   &__item {
     padding: get-size(300) 0;
     flex-shrink: 0;
-
+    @include apply-utility('font', 'highlight');
+    
     a {
-      color: currentColor;
-
+      color: white;
+      background: black;
+      
       @include apply-utility('weight', 'mid');
 
       &:not(:hover) {

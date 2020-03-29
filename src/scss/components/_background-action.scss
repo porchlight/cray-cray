@@ -1,0 +1,25 @@
+.cray-cray-bg-0 {
+  background-image: linear-gradient(90deg, #fb94ff 25%, #fff700 25%, #fff700 50%, #fb94ff 50%, #fb94ff 75%, #fff700 75%, #fff700 100%);
+  background-size: 80.00px 80.00px;
+}
+.cray-cray-bg-1 {
+  background-color: #000;
+  background-image: radial-gradient(circle, #fff 15%, transparent 10%), radial-gradient(circle, #fff 15%, transparent 10%);
+  background-size: 100px 100px;
+  background-position: 0 0, 50px 50px;
+}
+.cray-cray-bg-2 {
+  background: linear-gradient(135deg, #00CED1 1%, #fff 1%, #fff 49%, #00CED1 49%, #00CED1 51%, #fff 51%, #fff 99%, #00CED1 99%);
+  background-size: 6px 6px;
+  background-position: 50px 50px;
+}
+.cray-cray-bg-3 {
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAP0lEQVQoU42Q0QoAIAgDz///aMPAKKeQb26HTg0tB6zKVUhI4Bus5tMn2K4Djh7gBGXM7Uvo5riQ/BfUNwwTWfn+Cgg4zkoRAAAAAElFTkSuQmCC
+    ) repeat;
+}
+.cray-cray-bg-4 {
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAHElEQVQYV2M8c+bMfwYcgBEkaWJiwohNftBJAgDkoRtrmmfg/wAAAABJRU5ErkJggg==
+   ) repeat;
+}

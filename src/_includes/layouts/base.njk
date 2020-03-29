@@ -8,6 +8,8 @@
   <link rel="icon" href="{{ site.faviconPath }}" type="image/png" />
   {% include "partials/global/meta-info.njk" %}
   <script>document.documentElement.classList.remove('no-js');</script>
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Hi+Melody|Poiret+One|Reenie+Beanie&display=block" rel="stylesheet">
+  <script type="module" src="/js/components/background-action.js" async defer></script>
   <style>{% include "assets/css/global.css" %}</style>
   {% block head %}
   {% endblock %}
@@ -19,7 +21,6 @@
   {% include "partials/global/site-foot.njk" %}
   {% block foot %}
   {% endblock %}
-  <script type="module" src="/js/components/theme-toggle.js" async defer></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
