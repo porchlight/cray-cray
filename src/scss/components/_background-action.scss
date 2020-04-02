@@ -3,8 +3,8 @@
   background-size: 80.00px 80.00px;
 }
 .cray-cray-bg-1 {
-  background-color: #000;
-  background-image: radial-gradient(circle, #fff 15%, transparent 10%), radial-gradient(circle, #fff 15%, transparent 10%);
+  background-color: #6495ED;
+  background-image: radial-gradient(circle, yellow 15%, transparent 10%), radial-gradient(circle, yellow 15%, transparent 10%);
   background-size: 100px 100px;
   background-position: 0 0, 50px 50px;
 }
@@ -22,4 +22,24 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAP0lEQVQoU4
   background:url(
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAHElEQVQYV2M8c+bMfwYcgBEkaWJiwohNftBJAgDkoRtrmmfg/wAAAABJRU5ErkJggg==
    ) repeat;
+}
+
+#lightshow {
+  position:absolute;
+  width:100%;
+  left:-50%;
+  top:50%;
+}
+
+.photon {
+  transition: 360s ease-out;
+  width:200%;
+  height:10px;
+  background-color:yellow;
+  margin:1em;
+  list-style:none;
+  position:absolute;
+  opacity:0.1;
+  -webkit-filter: blur(10px) brightness(1.5);
+  filter: blur(10px) brightness(1.5);
 }
