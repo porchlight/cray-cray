@@ -30,16 +30,3 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAHElEQVQYV2
   left:-50%;
   top:50%;
 }
-
-.photon {
-  transition: 360s ease-out;
-  width:200%;
-  height:10px;
-  background-color:yellow;
-  margin:1em;
-  list-style:none;
-  position:absolute;
-  opacity:0.1;
-  -webkit-filter: blur(10px) brightness(1.5);
-  filter: blur(10px) brightness(1.5);
-}

@@ -23,7 +23,7 @@ function getCookie(cname) {
 function checkCookie() {
   var num = getCookie('background');
   if (num != '') {
-  	if (num < 6) {
+  	if (num < 5) {
   		num++;
   	}
   	else {
@@ -31,7 +31,7 @@ function checkCookie() {
   	}
   	setCookie('background', num, 365);
   } else {
-    num = Math.floor(Math.random() * 7);
+    num = Math.floor(Math.random() * 6);
     if (num != '' && num != null) {
       setCookie('background', num, 365);
     }
@@ -41,29 +41,7 @@ function checkCookie() {
 
 var num = checkCookie();
 
-if (num == 6) {
-	var ul = document.createElement('ul');
-	ul.setAttribute('id','lightshow');
-	ul.style.position = 'fixed';
-	ul.style.zIndex = '-100';
-	for (var i = 0; i < 40; ++i) {
-		var li = document.createElement('li');
-		li.classList.add('photon');
-		ul.appendChild(li);
-	}
-	document.body.style.backgroundColor = 'black';
-	document.body.prepend(ul);
-	var head = document.getElementsByTagName('head')[0];
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.onreadystatechange = function () {
-       if (this.readyState == 'complete') xFiles();
-    }
-    script.onload = xFiles;
-    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js';
-    head.appendChild(script);
-}
-else if (num == 5) {
+if (num == 5) {
 	var canvas = document.createElement('canvas');
 	canvas.style.position = 'fixed';
 	canvas.style.zIndex = '-100';
@@ -84,13 +62,6 @@ else if (num == 5) {
 }
 else {
 	document.body.classList.add('cray-cray-bg-' + num);
-}
-
-function xFiles() {
-	$('.photon').each(function() {
-	    var a = Math.random() < 0.5 ? Math.random()*-10000 : Math.random()*10000;             
-	    $(this).css('transform', 'rotate(' + a + 'deg)');    
-	});
 }
 
 function laserShow() {
