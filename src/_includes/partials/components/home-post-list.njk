@@ -5,12 +5,6 @@
         {% for item in postListItems %}
           {% if item.date.getTime() <= global.now %}
             <li class="post-list__item pad-top-base pad-bottom-base pad-left-base">
-              <h3 class="font-base leading-tight text-600 weight-mid">
-                <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
-              </h3>
-              <p class="text-500 gap-top-300 weight-mid">
-                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-              </p>
               <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
                 {{ item.data.content | safe }}
               </div>

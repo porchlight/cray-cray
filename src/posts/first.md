@@ -1,0 +1,9 @@
+---
+title: Good tweets
+date: 2020-04-10
+tags:
+  - twitter
+---
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">really helpful info to have right now! <a href="https://t.co/FtWqIIrilK">pic.twitter.com/FtWqIIrilK</a></p>&mdash; JEREMY (@jeremylevick) <a href="https://twitter.com/jeremylevick/status/1245174763808608256?ref_src=twsrc%5Etfw">April 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">conservative lecturer DESTROYS sjw college student <a href="https://t.co/QmrIaqsonq">pic.twitter.com/QmrIaqsonq</a></p>&mdash; JEREMY (@jeremylevick) <a href="https://twitter.com/jeremylevick/status/1218281229667184641?ref_src=twsrc%5Etfw">January 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unbelievable. Here is the audition tape that Good Morning America <a href="https://twitter.com/GMA?ref_src=twsrc%5Etfw">@GMA</a> rejected for when i was going to interview the cast of &quot;Tag&quot; <a href="https://twitter.com/tagthemovie?ref_src=twsrc%5Etfw">@tagthemovie</a> <a href="https://t.co/1WoRayDp2d">pic.twitter.com/1WoRayDp2d</a></p>&mdash; JEREMY (@jeremylevick) <a href="https://twitter.com/jeremylevick/status/1009487948344102914?ref_src=twsrc%5Etfw">June 20, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
