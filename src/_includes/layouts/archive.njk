@@ -6,12 +6,20 @@
 {% set introSummary %}{{ content | safe }}{% endset %}
 
 {# Post list content #}
-{% set postListHeading = 'All the jibber-jabber' %}
-{% set postListItems = collections.posts %}
+{% set postListItems = pagination.items %}
+{% if pagination.pageLinks.length > 1 %}
+	{% if pagination.previousPageLink %}
+ 		{% set paginationPrevUrl = pagination.previousPageHref | url %}
+	{% endif %}
+	{% if pagination.nextPageLink %} 		
+ 		{% set paginationNextUrl = pagination.nextPageHref | url %}
+ 	{% endif %}
+{% endif %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/archive-post-list.njk" %}
+    {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}

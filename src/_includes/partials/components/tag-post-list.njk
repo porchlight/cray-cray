@@ -9,7 +9,7 @@
                 <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
               </h3>
               <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-600 pad-bottom-600 text-500 ] [ sf-flow ] [ e-content ]">
-                {{ item.data.content | safe }}
+                {{ item.templateContent | safe }}
               </div>
               {% if item.data.tags %}
                 <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">

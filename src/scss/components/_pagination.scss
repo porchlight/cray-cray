@@ -2,7 +2,9 @@
   flex-wrap: wrap;
 
   a {
-    color: var(--color-theme-primary);
+    color: white;
+    background: black;
+
 
     &:not(:hover) {
       text-decoration: none;
